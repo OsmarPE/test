@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 // Ruta de ejemplo para POST
 app.post('/api/data', (req, res) => {
   const { body } = req;
-
+  console.log('Datos recibidos:', body);  
   res.json({
     message: 'Datos recibidos correctamente',
     data: body
