@@ -1,0 +1,10 @@
+
+### POST /api/data
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+  "name": "soy osmar",
+  "age": 30,
+  "email": "john@example.com"
+}
