@@ -4,7 +4,10 @@ POST https://test-cout.onrender.com/api/data
 Content-Type: application/json
 
 {
-  "name": "soy osmar",
+  "name": "soy osmarsjsjkkksj",
   "age": 30,
   "email": "john@example.com"
 }
+
+### GET /api/data 
+GET http://localhost:3000/api/data
